@@ -105,7 +105,7 @@ class SortRow extends React.Component {
     const layout = props.list.state.active.layout;
     const wrapperLayout = props.list.wrapperLayout;
     const offset = props.sortRowStyle && props.sortRowStyle.height
-      ? props.sortRowStyle.height / 2
+      ? layout.frameHeight - props.sortRowStyle.height / 2
       : 0;
 
     this.state = {
