@@ -2,13 +2,13 @@ import React from 'react'
 import {
   View,
   Animated,
-  ListView,
   Dimensions,
   PanResponder,
   LayoutAnimation,
   InteractionManager,
   Platform
 } from 'react-native'
+import ListView from 'deprecated-react-native-listview'
 
 const HEIGHT = Dimensions.get('window').height
 
